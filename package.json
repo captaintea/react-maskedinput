@@ -1,11 +1,11 @@
 {
-  "name": "react-maskedinput",
+  "name": "captaintea-react-maskedinput",
   "description": "Masked <input/> React component",
   "version": "3.3.4",
   "main": "./lib/index.js",
   "jsnext:main": "es6/index.js",
   "standalone": "MaskedInput",
-  "homepage": "https://github.com/insin/react-maskedinput",
+  "homepage": "https://github.com/captaintea/react-maskedinput",
   "license": "MIT",
   "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
   "keywords": [
@@ -42,6 +42,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/insin/react-maskedinput.git"
+    "url": "http://github.com/captaintea/react-maskedinput.git"
   }
 }
