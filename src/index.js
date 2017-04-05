@@ -185,7 +185,11 @@ var MaskedInput = React.createClass({
       this._updateMaskSelection()
       if (this.mask.backspace()) {
         var value = this._getDisplayValue()
-        e.target.value = value
+        if (value == "") {
+          e.target.value = '+7 (___) ___-__-__'
+        } else {
+          e.target.value = value
+        }
         if (value) {
           this._updateInputSelection()
         }
